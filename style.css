@@ -1,0 +1,81 @@
+::selection {
+  background: wheat;
+}
+
+::-moz-selection {
+  background: lightseagreen;
+}
+
+#main {
+  font-family: "Roboto", sans-serif;
+  /* background-color: rgb(110, 197, 255); */
+  background: linear-gradient(aliceblue, rgb(110, 197, 255));
+  /* background-attachment: fixed; */
+  color: var(--space-cadet);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  --light-gray: hsla(120, 1%, 84%, 1);
+  --space-cadet: hsla(240, 42%, 15%, 1);
+  --russet: hsla(23, 43%, 38%, 1);
+  --queen-blue: hsla(210, 33%, 45%, 1);
+  --green-cyan: hsla(157, 53%, 38%, 1);
+}
+#title, #subtitle, h4{
+  text-shadow: 0.1rem 0.1rem rgb(0, 0, 0);
+}
+
+#image {
+  width: 25vh;
+  max-width: 25vh;
+  height: auto;
+  padding: 1rem;
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+}
+#img-div {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  padding: 1em;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.5em;
+  color: var(--space-cadet);
+  /* text-shadow: 0.1rem 0.1rem rgb(0, 0, 0); */
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 0px 25px 25px;
+}
+
+#tribute-info {
+  padding: 1em;
+  text-align: justify;
+}
+
+header {
+  line-height: 0.5rem;
+  border-radius: 25px;
+  text-justify: newspaper;
+  text-align: center;
+  background-color: rgb(69, 147, 255);
+  color: rgb(255, 255, 255);
+  /* text-shadow: 0.1em 0.1em rgb(7, 7, 7); */
+  box-shadow: 1px 1px black;
+}
+
+section {
+  padding: 1em 5em;
+  box-shadow: 1px 1px;
+  border-radius: 25px;
+  margin: 2em;
+  background-color: azure;
+}
+
+hr {
+  border: 1px solid var(--green-cyan);
+  border-radius: 25px;
+}
